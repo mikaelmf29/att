@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=350, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="custom.css" rel="stylesheet" />
+    <link href="responsive.css" rel="stylesheet" />
+
+    <title>Guitarras</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CustomGuitar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              id="LinkHome"
+              href="#"
+              >Home</a
+            >
+            <a class="nav-link" id="LinkServiços" href="#">Serviços</a>
+            <a class="nav-link" id="LinkSobre" href="#">Sobre</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h3>Esta afim de personalizar sua guitarra?</h3>
+            <h3>Deixe ela com um design unico</h3>
+            <p>
+              Entre em contato, e faça um orçamento na melhor customizadora de
+              Guitarras de Erechim e região
+            </p>
+          </div>
+          <div class="col">
+            <p>Ligue agora<br />(54)99999-9999</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container" style="max-width: 100%; max-height: 100vd">
+        <div class="row">
+          <div class="col-9">
+            <h2>Mais de 100.000 guitarras cutomizadas</h2>
+          </div>
+          <div class="col-4">
+            <article>
+              <p>
+                A CustomGuitar é líder na customização de guitarras, oferecendo
+                uma experiência única para músicos de todos os estilos. Com uma
+                equipe de artesãos apaixonados e altamente qualificados,
+                transformamos instrumentos comuns em obras de arte exclusivas.
+              </p>
+
+              <p>
+                Desde nossa fundação há mais de uma década, nos dedicamos a
+                entender as necessidades dos clientes, oferecendo um processo de
+                customização transparente e colaborativo. Cada projeto recebe
+                atenção aos detalhes, resultando em guitarras que refletem a
+                personalidade de cada músico.
+              </p>
+
+              <p>
+                Com uma base sólida de clientes, incluindo músicos profissionais
+                e colecionadores, colaboramos com artistas renomados para criar
+                edições especiais. Nosso compromisso com a inovação e a
+                excelência artesanal nos torna uma referência no mercado,
+                proporcionando uma experiência sob medida para músicos que
+                buscam expressar sua individualidade.
+              </p>
+            </article>
+          </div>
+          <div class="col-6">
+            <img
+              src="4o0a5803_cfbca6bed1.jpg"
+              style="max-width: 100%; max-height: 400px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-2">
+        <div class="row">
+          <div class="col-10">
+            <h1>Customizações</h1>
+          </div>
+          <div class="col-5">
+            <article>
+              <p>
+                A GuitarCustom é especializada em serviços de customização de
+                guitarras, oferecendo uma ampla gama de opções para músicos que
+                desejam personalizar seus instrumentos. Nossos serviços incluem
+                pintura e acabamento personalizados, instalação de captadores e
+                circuitos elétricos, ajustes de braço e trastes, além de
+                personalização de hardware e acessórios.
+              </p>
+              <img
+                src="relicss.jpg"
+                class="rounded mx-auto d-block"
+                alt="sobreimg"
+              />
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="info">
+        <h2>CustomGuitar</h2>
+        <p>Rua Exemple, 123-Erechim-RS</p>
+        <p>Telefone: (54) 1234-5678</p>
+        <p>E-mail: custom_guitar@empresa.com</p>
+      </div>
+      <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const linkHome = document.getElementById("LinkHome");
+      const linkServicos = document.getElementById("LinkServiços");
+      const linkSobre = document.getElementById("LinkSobre");
+
+      linkHome.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.location.href = "http://127.0.0.1:64240/index.html";
+      });
+
+      linkServicos.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.location.href = "http://127.0.0.1:64240/servico.html";
+      });
+    </script>
+  </body>
+</html>
